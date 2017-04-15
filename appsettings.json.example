@@ -1,0 +1,11 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SQLSERVER;Database=YOUR_DATABASE;uid=YOUR_USER;pwd=YOUR_PASSWORD;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  }
+}
