@@ -23,7 +23,7 @@ namespace MySampleWeb.Controllers
             return Ok(_repository.GetAll(offset, limit));
         }
 
-        [Route("{CustomerID}")]
+        [Route("{CustomerID}"), HttpGet]
         public IActionResult Find(string CustomerID)
         {
             var customer = _repository.Find(CustomerID);
